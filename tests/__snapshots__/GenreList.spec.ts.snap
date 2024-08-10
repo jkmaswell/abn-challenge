@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GenreList.vue > matches snapshot 1`] = `"<div data-v-47bca01b="" class="genre-list"></div>"`;
