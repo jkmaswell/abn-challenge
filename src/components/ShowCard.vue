@@ -37,9 +37,9 @@ const props = defineProps<Props>()
 <style scoped lang="scss">
 .show-card {
   overflow: hidden;
-  border: 0.1rem solid #ddd;
+  border: 0.1rem solid $border-color;
   border-radius: 0.8rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 10%);
+  box-shadow: 0 0.5rem 1rem rgba($shadow-color, 10%);
   inline-size: 100%;
   max-inline-size: 20rem;
   min-inline-size: 20rem;
@@ -59,7 +59,7 @@ const props = defineProps<Props>()
   }
 
   &__rating {
-    color: #555;
+    color: $rating-color;
     font-size: 1.4rem;
   }
 

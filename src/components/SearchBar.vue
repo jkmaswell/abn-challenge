@@ -31,7 +31,7 @@ watch(() => query.value, (nVal: string) => {
 .search-bar {
   &__input {
     padding: 1rem;
-    border: 0.1rem solid #ddd;
+    border: 0.1rem solid $border-color;
     border-radius: 0.4rem;
     font-size: 1.6rem;
     inline-size: 100%;

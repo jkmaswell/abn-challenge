@@ -84,8 +84,8 @@ onMounted(async () => {
     flex-direction: row;
     padding: 2rem;
     border-radius: 0.8rem;
-    background: #fff;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 10%);
+    background: $content-color;
+    box-shadow: 0 0 1rem rgba($shadow-color, 10%);
     gap: 2rem;
 
     @media (width <= 37.5rem) {
@@ -119,14 +119,14 @@ onMounted(async () => {
 
   &__title {
     margin: 0;
-    color: #333;
+    color: $title-color;
     font-size: 2.4rem;
   }
 
   &__rating {
     display: flex;
     align-items: center;
-    color: #555;
+    color: $rating-color;
     font-size: 1.6rem;
     gap: 0.5rem;
 
@@ -142,7 +142,7 @@ onMounted(async () => {
   &__genres {
     display: flex;
     flex-direction: column;
-    color: #555;
+    color: $rating-color;
     font-size: 1.6rem;
     gap: 0.5rem;
 
@@ -161,14 +161,14 @@ onMounted(async () => {
 
     &-genre {
       border-radius: 0.4rem;
-      background: #e0e0e0;
+      background: $genre-color;
       padding-block: 0.5rem;
       padding-inline: 1rem;
     }
   }
 
   &__summary {
-    color: #333;
+    color: $title-color;
     font-size: 1.6rem;
 
     &-title {
@@ -182,7 +182,7 @@ onMounted(async () => {
   }
 
   &__back-link {
-    color: #007bff;
+    color: $primary-color;
     font-size: 1.6rem;
     font-weight: bold;
     margin-block-start: 2rem;
