@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Show } from '@/types/show'
-import { defineProps } from 'vue'
 
 interface Props {
   show: Show;
